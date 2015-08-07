@@ -7,8 +7,8 @@ describe('String#counting_words') do
     expect(("the dog is red").counting_words).to(eq(["the", "dog", "is", "red"]))
   end
 
-  # it('identify if a letter is in the array') do
-  #   expect(("a").counting_words).to(eq("true"))
-  # end
+  it('identify a word in the array') do
+    expect(("dog").counting_words).to(eq("true"))
+  end
 
 end
