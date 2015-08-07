@@ -2,7 +2,9 @@ require('pry')
 
 class String
   define_method(:counting_words) do
-    word_input = self
-    word_input.split("")
+    sentence = self
+    sentence_array = []
+
+    sentence_array = sentence.split()
   end
 end
