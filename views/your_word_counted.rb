@@ -1,2 +1,0 @@
-<h1>Your word appears:</h1>
-<h2>This many times <%= @result %></h2>
